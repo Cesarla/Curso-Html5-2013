@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	font-family: 'Unica One', cursive;
+}
+
+h1{
+	background: #FF9900;
+	border-radius: 0 0 5px 5px;
+	color: #000000;
+	margin-top: 0;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	letter-spacing: 4px;
+}
+
+h1 span.omg{
+	font-family: 'Handlee', cursive;
+	color: #ffffff;
+	font-size: 0.8em;
+}
+
+h1 span.small {
+	font-size: 0.4em;
+}
+
+h2{
+	margin-bottom: 1em;
+	border-bottom: 2px dashed grey;
+}
+
+.book {
+	margin-bottom: 1em;	
+}
+
+.book .nav {
+	text-align:center;
+}
+
+input{
+	margin-bottom: 0 !important;
+}
+
+p{
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align:center;
+}
