@@ -1,6 +1,6 @@
 $().ready(function() {
 
-	var box = document.getElementById('box');
+	var box = document.getElementById('editor');
 	
 	box.addEventListener('dragover', cancel);
 	
@@ -29,15 +29,20 @@ $().ready(function() {
 	}
 	
 	function cargarImagen(file){
-		añadirHtml('<div class="file">'
-			+'<p><span class="bold">Fichero:</span> '+file.name+'</p>'
-			+'<p><span class="bold">Tamaño:</span> '+file.size +' bytes</p>'
-			+'<p><span class="bold">Tipo:</span> '+file.type+'</p>'
-			+'</div>');
+		// display text
+		if (file.type.indexOf("text") == 0) {
+			var reader = new FileReader();
+			reader.onload = function(e) {
+				añadirHtml(
+					e.target.result.replace(/</g, "&lt;").replace(/>/g, "&gt;")
+				);
+			}
+			reader.readAsText(file);
+		}
 	}
 	
 	function añadirHtml(html) {
-		$('#result').html(function(index, val) {
+		$('#editor').html(function(index, val) {
 			return $('#result').html() + html;
 		});
 	}
