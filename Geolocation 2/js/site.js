@@ -1,8 +1,10 @@
 /**
  * Espera hasta la carga completa del DOM
  */
-var map;
 $().ready(function() {
+	
+	var map;
+	
 	/**
 	 * Calcula la geolocalización al lanzarse un evento de click
 	 * sobre el botón con id="geo"
@@ -21,7 +23,7 @@ $().ready(function() {
 	}
 	
 	/**
-	 * Muestra un mapa, Google Maps, con los datos de la Geolocalización.
+	 * Muestra un mapa del servicio Google Maps, con los datos de la Geolocalización.
 	 * @param {Object} position Objeto contenedor de los resultados de la Geolocalizacion.
 	 */
 	function handleGeolocation(position) {
@@ -29,7 +31,7 @@ $().ready(function() {
 			div: '#map',
 			lat: position.coords.latitude,
 			lng: position.coords.longitude,
-			height: '500px',
+			height: '500px'
 		});
 		
 		map.addMarker({
@@ -40,7 +42,7 @@ $().ready(function() {
 	} 
 	
 	/**
-	 * Controla los errores, imprimiendolos en un alert.
+	 * Controla los errores y los muestra en un alert.
 	 * @param {Object} error Objeto que contiene información relativa al error.
 	 */
 	function handleErrors(error){
@@ -56,7 +58,7 @@ $().ready(function() {
 				alert("Timeout");
 				break;
 			default:
-				alert("Something bad - and unknown - happened");
+				alert("Something bad and unknown - happened");
 				break;
 		}
 	}

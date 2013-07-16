@@ -5,6 +5,10 @@ URL del Curso: [HTML5 y el futuro de la Web](https://directo.uniovi.es/postgrado
 
 ##HTML5 APIs:##
 
+### Slides ###
+
+- Coming Soon
+
 ### Geolocation API ###
 
  - [Geolocation 1](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Geolocation%201)
