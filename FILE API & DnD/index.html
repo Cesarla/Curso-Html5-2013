@@ -4,7 +4,7 @@
 		<!-- Metadatos -->
 		<meta charset="utf-8"/>
 		<meta name="author" content="John/Judy Doe"/>
-		<title>Plantilla HTML5 de Muestra</title>
+		<title>Chromeless - Editor</title>
 
 		<!-- CSS -->
 		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -18,28 +18,31 @@
 			<header>
 				<h1>Chromeless - Editor</h1>
 			</header>
-			<div class="span12">
+			<div id="wrapper-fs">
 				<div class="btn-toolbar">
 					<div class="btn-group">
-						<a class="btn" href="#"><i class="icon-folder-open"></i></a>
-						<a class="btn" href="#"><i class="icon-download-alt"></i></a>
-						<a class="btn" href="#"><i class="icon-trash"></i></a>
+						<a id="open" class="btn" href="#"><i class="icon-folder-open"></i></a>
+						<a id="download" class="btn" href="#"><i class="icon-download-alt"></i></a>
+						<a id="trash" class="btn" href="#"><i class="icon-trash"></i></a>
 					</div>
 					<div class="btn-group">
-						<a class="btn" href="#"><i class="icon-align-left"></i></a>
-						<a class="btn" href="#"><i class="icon-align-center"></i></a>
-						<a class="btn" href="#"><i class="icon-align-right"></i></a>
-						<a class="btn" href="#"><i class="icon-align-justify"></i></a>
+						<a id="fs" class="btn" href="#"><i class="icon-fullscreen"></i></a>
+					</div>
+					<div class="btn-group">
+						<a id="left" class="btn" href="#"><i class="icon-align-left"></i></a>
+						<a id="center" class="btn" href="#"><i class="icon-align-center"></i></a>
+						<a id="right" class="btn" href="#"><i class="icon-align-right"></i></a>
+						<a id="justify" class="btn" href="#"><i class="icon-align-justify"></i></a>
 					</div>
 				</div>
 				<pre id="editor" contenteditable="true">
-
+					
 				</pre>
 			</div>
-		</div>
 		</div>
 		<!-- Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/site.js"></script>
+		<script src="js/fs.js"></script>
 	</body>
 </html>
