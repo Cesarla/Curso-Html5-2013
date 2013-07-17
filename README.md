@@ -7,7 +7,8 @@ Más información acerca del Curso: [HTML5 y el futuro de la Web](https://direct
 
 ### Slides ###
 
-- Coming Soon
+ - [Geolocation (PDF)](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Slides/Slides.pdf
+ - [Geolocation (PPTX)](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Slides/Slides.pptx
 
 ### Geolocation API ###
 
@@ -30,4 +31,4 @@ Más información acerca del Curso: [HTML5 y el futuro de la Web](https://direct
  - [Utils/Útiles](https://github.com/Cesarla/CursoHtml5/tree/master/Utiles)
  
 ## ONGOING EXAMPLE ##
- - [On Going Examples](https://github.com/Cesarla/CursoHtml5/tree/master/ONGOING)
+ - [On Going Examples](https://github.com/Cesarla/CursoHtml5/tree/master/ONGOING%20EXAMPLE
