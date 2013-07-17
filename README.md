@@ -14,18 +14,20 @@ Más información acerca del Curso: [HTML5 y el futuro de la Web](https://direct
  - [Geolocation 1](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Geolocation%201)
  - [Geolocation 2](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Geolocation%202)
  
-### Drag and Drop ###
+### Drag and Drop API###
 
- - [Drag and Drop 1](https://github.com/Cesarla/Curso-Html5-2013/tree/master/DnD%201)
- - [Drag and Drop 1.1](https://github.com/Cesarla/Curso-Html5-2013/tree/master/DnD%201.1)
+ - [Drag and Drop 1](https://github.com/Cesarla/Curso-Html5-2013/tree/master/DnD)
 
-### Session & Local Sotrage API ###
- - [Session Storage](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Session%20Storage)
- - [Local Storage](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Local%20Storage)
+### Web Storage API ###
+ - [Session Storage](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Web%20Storage/Session%20Storage)
+ - [Local Storage](https://github.com/Cesarla/Curso-Html5-2013/tree/master/Web%20Storage/Local%20Storage)
 
-### File API, Drag and Drop, Full Screen ###
+### Drag and Drop API & Full Screen API###
 
- - [File & Drag and Drop](https://github.com/Cesarla/Curso-Html5-2013/tree/master/FILE API & DnD)
-
-## UTILS (UTILES) ##
- - [Utiles](https://github.com/Cesarla/CursoHtml5/tree/master/Utiles)
+ - [File & Drag and Drop](https://github.com/Cesarla/Curso-Html5-2013/tree/master/FILE%20API%20%26%20Full%20Screen%20API)
+ 
+## UTILS (ÚTILES) ##
+ - [Utils/Útiles](https://github.com/Cesarla/CursoHtml5/tree/master/Utiles)
+ 
+## ONGOING EXAMPLE ##
+ - [On Going Examples](https://github.com/Cesarla/CursoHtml5/tree/master/ONGOING)

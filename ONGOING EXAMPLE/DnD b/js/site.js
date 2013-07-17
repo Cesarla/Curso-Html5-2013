@@ -11,29 +11,27 @@ $().ready(function() {
 	
 	monster.addEventListener("dragenter", cancel);
 	
-	monster.addEventListener("drop", function(event) {
-		
-		if (event.preventDefault) {
-			event.preventDefault();
-		}
-		
-		switch(event.dataTransfer.getData("Text")){
-			case manzana:
-				alert("¡Puagh!");
-				break;
-			case pera:
-				alert("¡Quiero Galletas!");
-				break;
-			case platano:
-				alert("¡Arghs!");
-				break;
-			case galleta:
-				alert("¡Mmm Galletas!");
-				break;
-		}
-		return false;
-	});
 	
+	/**
+	 * A�ade resaltado al elemento de destino.
+	 * @param {Object} event
+	 */
+	function addLight(event) {
+
+	}
+	
+	/**
+	 * Elimina el resaltado al elemento de destino.
+	 * @param {Object} event
+	 */
+	function removeLight(event) {
+
+	}
+	
+	/**
+	 * Elimina el funcionamiento por defecto del evento.
+	 * @param {Object} event
+	 */
 	function cancel(event) {
 		if (event.preventDefault) {
 			event.preventDefault();
